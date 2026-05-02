@@ -4,7 +4,7 @@ import { ProductContext } from './App';
 const Products = () => {
   const items = useContext(ProductContext);
 
-  if(items) {
+  if(!items) {
     return;
   }
 
